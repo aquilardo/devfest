@@ -1,0 +1,13 @@
+1. Conectarse por ssh a la máquina virtual e instalar el Servirdor LAMP ejecutando el comando.
+> apt-get update
+> apt-get install -y apache2 mysql-server-5.5 php5-mysql php5 libapache2-mod-php5 php5-mcrypt
+2. Realizar las pruebas sobre el correcto funcionamiento de la instalación del servidor LAMP ejecutando:
+> apache2 –v
+>php --versión
+>mysql --version 
+3. configurar las carpetas sincronizadas en el archivo Vagrantfile.
+4. ejecutar el comando vagrant reload
+***********
+2. Ejecutar el comando vagrant reload.
+3. Realizar las pruebas, creando un archivo hello.php
+4. Verificar el funcionamiento en un Navegador Web.
